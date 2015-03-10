@@ -7,8 +7,8 @@
   "repository": "msmiley/.git",
   "scripts": {
     "docs": "cake docs",
-    "prepublish": "cake build; cake test docs",
-    "test": "cake build; cake test"
+    "prepublish": "cake build & cake test docs",
+    "test": "cake build & cake test"
   },
   "devDependencies": {
     "docco": "*",
@@ -16,9 +16,8 @@
     "jasmine-node": "^1.14.5"
   },
   "dependencies": {
-
   },
   "keywords": [
   ],
-  "license": "MIT"
+  "license": "ISC"
 }

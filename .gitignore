@@ -1,5 +1,6 @@
-lib
-node_modules
-npm-debug.log
-docs
+.DS_Store
+/lib
+/node_modules
+/npm-debug.log
+/docs
 *.tgz
